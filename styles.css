@@ -1,6 +1,7 @@
 body{
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
@@ -8,9 +9,27 @@ body{
 .login{
   width: 380px;
   height: min-content;
-  padding: 20px;
+  padding: 20px 50px;
   border-radius: 15px;
   background-color:rgb(255, 255, 255);
+}
+.signup{
+  width: 380px;
+  height: min-content;
+  padding: 20px 50px;
+  border-radius: 15px;
+  background-color:rgb(255, 255, 255);
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+  margin: 0px;
+  padding: 20px;
+}
+.loginbutton{
+  padding: 5px 19px;
+  letter-spacing: 1px;
 }
 h1{
   font-size: 40px;
